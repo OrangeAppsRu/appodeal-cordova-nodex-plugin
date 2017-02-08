@@ -24,7 +24,7 @@
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
         </config-file>
-        <framework src="com.google.android.gms:play-services-ads:9+" />
+        <framework src="com.google.android.gms:play-services-ads:9.6+" />
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <meta-data android:name="com.appodeal.framework" android:value="phonegap" />
             <receiver android:name="com.appodeal.ads.AppodealPackageAddedReceiver" android:exported="true" android:enabled="true">
@@ -189,7 +189,6 @@
 		<source-file src="libs/flurry-ads-6.5.0.jar" target-dir="libs" />
 		<source-file src="libs/flurry-analytics-6.5.0.jar" target-dir="libs" />
 		<source-file src="libs/javax.inject-1.jar" target-dir="libs" />
-		<source-file src="libs/my-target-4.5.10.jar" target-dir="libs" />
 		<source-file src="libs/revmob-9.2.3.jar" target-dir="libs" />
 		<source-file src="libs/startapp-3.4.3.jar" target-dir="libs" />
 		<source-file src="libs/tapjoy-11.8.0.jar" target-dir="libs" />
